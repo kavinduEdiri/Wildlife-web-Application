@@ -1,0 +1,37 @@
+body{
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.90)),url('../Resources/wild1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.paris{
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.paris h1{
+  margin: 0px;
+  padding: 0px;
+  font-size: 150px;
+  margin-top: 80px;
+  }
+
+.paris p{
+  margin: 0px;
+  padding: 0px;
+  width: 75%;
+  font-weight: 100;
+  line-height: 20px;
+  font-size: 18px;
+}
+
+
+
+

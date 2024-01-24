@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-Dashboard</title>
+    <link rel="stylesheet" href="CSS/Nav.css">
+    <link rel="stylesheet" href="CSS/userDashboard.css">
+</head>
+<body>
+    <header>
+        <div class="topnav">
+        	<img class="logo" src="Resources/logo.png">
+        	<div class="topnav-right">
+                <a class="active" href="home.html">Home</a>
+				<a href="user.html">User</a>
+				<a href="administrativeWork.html">Administrative Work</a>
+  				<a href="Hotelbooking.html">Leave Form</a>
+  				<a href="Heritage.html">Gallery</a>
+				<a href="contact.html">Contact</a>
+  			</div>
+		</div>
+    </header>
+
+    <br><br>
+    <h1><U>Preserved Animal Dashboard</U></h1>
+
+
+    <br><br><br><br>
+
+    
+
+
+    <div class="options">
+        <a href="preservedAnimalAdd.html"><button class="create" style="border:3px solid white; cursor: pointer;">Add new Animal</button></a>
+    </div>
+    <div class="options">
+        <button  class="delete" style="border:3px solid white; cursor: pointer;" onclick="deleteAnimalData()">Delete Animal</button>
+    </div>
+    <div class="options">
+        <button  class="update" style="border:3px solid white; cursor: pointer;" onclick="updateAnimalData()"  >Updade Animal</button>
+    </div>
+    <div class="options">
+        <form action="selectedPreservedAnimal.php" method="post">
+            <input type="submit" name="show" value="show Preserved Animal" style="width: 70%; height: 80px; border-radius: 20%; background-color: #55efc4; border:3px solid white; cursor: pointer;">
+    
+        </form>
+    </div>
+
+
+    <br><br><br><br><br><br>
+<!-- =========================================================================================-->
+
+ <!-- =========================================================================================-->
+    
+
+    <script>
+        function loadAnotherPage() {
+            
+            console.log("another page is working!");
+            window.location.href = 'selectedUser.php';
+        }
+
+        function loadUpdatePage() {
+            
+            console.log("Update page is working!");
+            window.location.href = 'updatepage.html';
+        }
+
+        function deleteAnimalData() {
+            
+            console.log("Delete animal data pageis working!");
+            window.location.href = 'deletePreservedAnimalData.html';
+        }
+
+        function updateAnimalData() {
+            
+            console.log("Update animal data pageis working!");
+            window.location.href = 'updatePreservedAnimalData.html';
+        }
+    </script>
+</body>
+</html>

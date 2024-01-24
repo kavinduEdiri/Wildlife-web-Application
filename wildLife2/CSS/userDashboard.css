@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.90)),url('../Resources/wild1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .options{
+    width: 10%;
+    height: 20px;
+    margin-right: 5px; 
+    box-sizing: border-box;
+    display: inline-block; 
+   
+  
+  }
+
+  h1{
+    color: aliceblue;
+  }
+
+  .options:hover{
+    
+    cursor: pointer;
+  }
+
+  button{
+    border-radius: 20px;
+    width: 100px;
+    height: 75px;
+  }
+  .create{
+    background-color: #55efc4;
+  }
+  .delete{
+    background-color: #81ecec;
+  }
+  .update{
+    background-color: #74b9ff;
+  }
+  .select{
+    background-color: #a29bfe;
+  }

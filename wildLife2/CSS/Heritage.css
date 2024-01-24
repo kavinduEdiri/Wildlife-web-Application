@@ -1,0 +1,139 @@
+body{
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.05),rgba(0,0,0,0.90)),url('../Resources/wild1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.col{
+	width: 100%;
+	display: flex;
+	height: 88%;
+	align-items: flex-start;
+}
+
+.col1{
+	flex: 1;
+	width: 50%;
+	float: left;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+}
+
+.col2{
+	flex: 1;
+	width: 50%;
+	float: left;
+	overflow-y: scroll;
+}
+
+h1{
+	color: #fff;
+	font-size: 100px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+
+p{
+	width: 75%;
+	color: #fff;
+	font-size: 18px;
+	line-height: 15px;
+	padding-top: 5px;
+	padding-left: 50px;
+}
+
+.card{
+	width: 250px;
+	height: 250px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 0px 0px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
+}
+
+.card:hover{
+	transform: translateY(-10px);
+}
+
+a.card {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card1{
+		background-image: url('wild2.jpg');
+}
+
+.card2{
+	background-image: url('wild3.jpg');
+}
+
+.card3{
+	background-image: url('wild4.jpg');;
+}
+
+.card4{
+	background-image: url('wild5.jpg');
+}
+
+.card5{
+	background-image: url('wild6.jpg');
+}
+
+.card6{
+	background-image: url('wild7.jpg');
+}
+
+.card7{
+	background-image: url('wild8.jpg');
+}
+
+.card8{
+	background-image: url('wild9.jpg');
+}
+
+.card9{
+	background-image: url('wild10.jpg');
+}
+
+.card10{
+	background-image: url('wild11.jpg');
+}
+.card11{
+	background-image: url('wild12.jpg');
+}
+.card12{
+	background-image: url('wild13.jpg');
+}
+.card13{
+	background-image: url('wild14.jpg');
+}
+.card14{
+	background-image: url('wild15.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
